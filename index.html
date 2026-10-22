@@ -172,18 +172,17 @@ footer{background:var(--navy);color:#cdd8f5;padding:26px 0 calc(90px + env(safe-
 
 <script>
 var courses=[
-["🖥️","Basic Computer",5000,"Beginner","1 month","Using a computer, typing, files and internet.","computer"],
-["📊","MS Office (Word, Excel)",10000,"Beginner","1.5 months","Must-have skills for jobs and shop work.","computer"],
-["🌐","Web Design (HTML, CSS)",20000,"Beginner","2 months","Learn to make your own website.","computer"],
+["🖥️","Basic Computer", Contact us,"Beginner","1 month","Using a computer, typing, files and internet.","computer"],
+["📊","MS Office (Word, Excel)", Contact Us,"Beginner","1.5 months","Must-have skills for jobs and shop work.","computer"],
+["🌐","Web Design (HTML, CSS)", Contact Us,"Beginner","2 months","Learn to make your own website.","computer"],
 ["⚙️","PHP Programming",0,"Intermediate","3 months","Basics of website backend and database.","computer"],
-["🤖","AI Tools for Beginners",10000,"Beginner","1 month","Use AI on your phone for resumes, posts and daily work.","computer"],
-["🎹","Keyboard / Piano",10000,"Beginner","3 months","Notes, scales and easy songs.","music"],
-["🎸","Guitar",10000,"Beginner","3 months","Start with chords and strumming.","music"],
-["🪗","Harmonium",20000,"Beginner","2 months","Basics of bhajan and light music.","music"],
-["🎤","Vocal / Singing",20000,"Beginner","3 months","Work on voice, pitch and breathing.","music"],
-["🎧","Mobile Music Editing",20000,"Beginner","1 month","Record and edit songs on your phone.","music"],
-["🍪","Home-made Cookies and Cake Making",0,"Beginner","Contact us","Learn to bake tasty cookies and cakes at home.","baking"]];
-var DIR="Director and Lead Faculty: Mallika Gautam, MA B.Ed (Home Science and Music)";
+["🤖","AI Tools for Beginners", Contact Us,"Beginner","1 month","Use AI on your phone for resumes, posts and daily work.","computer"],
+["🎹","Keyboard / Piano", Contact Us,"Beginner","3 months","Notes, scales and easy songs.","music"],
+["🎸","Guitar", Contact Us,"Beginner","3 months","Start with chords and strumming.","music"],
+["🪗","Harmonium", Contact Us,"Beginner","2 months","Basics of bhajan and light music.","music"],
+["🎤","Vocal / Singing",,"Beginner","3 months","Work on voice, pitch and breathing.","music"],
+["🎧","Mobile Music Editing", Contact Us,"Beginner","1 month","Record and edit songs on your phone.","music"]],
+ DIR="Director and Lead Faculty: Mallika Gautam, MA B.Ed (Home Science and Music)";
 var list=document.getElementById("list"),sel=document.getElementById("c");
 function fmt(n){return n?"₹"+n.toLocaleString("en-IN"):"Contact us"}
 function draw(f){list.innerHTML="";courses.forEach(function(c){if(f!=="all"&&c[6]!==f)return;
